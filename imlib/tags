@@ -1,0 +1,378 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/9757e4ff/
+ImageBase	README.md	/^## ImageBase$/;"	s
+ImageBase	base.py	/^class ImageBase(object):$/;"	c
+ImageFeature	base_features.py	/^class ImageFeature(ImageLine):$/;"	c
+ImageFilter	base_filters.py	/^class ImageFilter(ImageBase):$/;"	c
+ImageLine	base_lines.py	/^class ImageLine(ImageFilter):$/;"	c
+ImageObject	imgfolder.py	/^ImageObject = ImageFeature$/;"	v
+ImgFolder	imgfolder.py	/^class ImgFolder(object):$/;"	c
+ImgLog	imglog.py	/^class ImgLog(ImgFolder):$/;"	c
+Initialization	README.md	/^## Initialization$/;"	s
+Install	README.md	/^## Install$/;"	s
+LUT	base.py	/^    def LUT(self, cmapname=None):$/;"	m	class:ImageBase
+LineObject	base_lines.py	/^class LineObject:$/;"	c
+Naming Rules	README.md	/^## Naming Rules$/;"	s
+NoiseGater	base_filters.py	/^class NoiseGater:$/;"	c
+OptimizeResult	fmin.py	/^class OptimizeResult(dict):$/;"	c
+ROF_values	_im_utils.py	/^def ROF_values(f, x, y, clambda):$/;"	f
+W	fp.py	/^def W(x, wo, t, tp=0, pe=1.0, n=100):$/;"	f
+__all__	base.py	/^__all__ = ('ImageBase', '_rescale_to_dtype', '_as_grey')$/;"	v
+__all__	base_filters.py	/^__all__ = ('ImageFilter', 'NoiseGater', '_operation_list')$/;"	v
+__author__	_im_utils.py	/^__author__ = 'Sung-Cheol Kim'$/;"	v
+__author__	base.py	/^__author__ = 'Sungcheol Kim <kimsung@us.ibm.com>'$/;"	v
+__author__	base_features.py	/^__author__ = 'Sungcheol Kim <kimsung@us.ibm.com>'$/;"	v
+__author__	base_filters.py	/^__author__ = 'Sungcheol Kim <kimsung@us.ibm.com>'$/;"	v
+__author__	base_lines.py	/^__author__ = 'Sungcheol Kim <kimsung@us.ibm.com>'$/;"	v
+__author__	imgfolder.py	/^__author__ = 'Sung-Cheol Kim'$/;"	v
+__author__	imglog.py	/^__author__ = 'Sungcheol Kim <kimsung@us.ibm.com>'$/;"	v
+__author__	microimage.py	/^__author__ = 'Sungcheol Kim <kimsung@us.ibm.com>'$/;"	v
+__author__	rfit.py	/^__author__ = 'Sung-Cheol Kim'$/;"	v
+__delattr__	fmin.py	/^    __delattr__ = dict.__delitem__$/;"	v	class:OptimizeResult	file:
+__dir__	fmin.py	/^    def __dir__(self):$/;"	m	class:OptimizeResult
+__doc__	__init__.py	/^__doc__ = """$/;"	v
+__docformat__	__init__.py	/^__docformat__ = 'restructuredtext'$/;"	v
+__docformat__	base.py	/^__docformat__ = 'restructuredtext en'$/;"	v
+__getattr__	fmin.py	/^    def __getattr__(self, name):$/;"	m	class:OptimizeResult
+__getitem__	imgfolder.py	/^    def __getitem__(self, fileID):$/;"	m	class:ImgFolder
+__getitem__	imglog.py	/^    def __getitem__(self, fileID):$/;"	m	class:ImgLog
+__init__	base.py	/^    def __init__(self, objects, method='tifffile', debug=False, **kwargs):$/;"	m	class:ImageBase
+__init__	base_features.py	/^    def __init__(self, objects, method='tifffile', debug=False, **kwargs):$/;"	m	class:ImageFeature
+__init__	base_filters.py	/^    def __init__(self, img, width=8, step=4, gamma=3.0, beta_percentile=50, beta_count=0, types=/;"	m	class:NoiseGater
+__init__	base_filters.py	/^    def __init__(self, objects, method='tifffile', debug=False, **kwargs):$/;"	m	class:ImageFilter
+__init__	base_lines.py	/^    def __init__(self, img, x0, y0, x1, y1, label='distance (pixel)', debug=False):$/;"	m	class:LineObject
+__init__	base_lines.py	/^    def __init__(self, objects, method='tifffile', debug=False, **kwargs):$/;"	m	class:ImageLine
+__init__	imgfolder.py	/^    def __init__(self, dirname, sort=False, debug=False, file_format='tif', **kwargs):$/;"	m	class:ImgFolder
+__init__	imglog.py	/^    def __init__(self, dirname, sort=False, debug=False):$/;"	m	class:ImgLog
+__init__	microimage.py	/^    def __init__(self, filename, update=False, method='pims', debug=False, nd2_m=0, nd2_c=1):$/;"	m	class:mImage
+__repr__	base.py	/^    def __repr__(self):$/;"	m	class:ImageBase
+__repr__	base_lines.py	/^    def __repr__(self):$/;"	m	class:ImageLine
+__repr__	fmin.py	/^    def __repr__(self):$/;"	m	class:OptimizeResult
+__repr__	imgfolder.py	/^    def __repr__(self):$/;"	m	class:ImgFolder
+__repr__	imglog.py	/^    def __repr__(self):$/;"	m	class:ImgLog
+__repr__	microimage.py	/^    def __repr__(self):$/;"	m	class:mImage
+__setattr__	fmin.py	/^    __setattr__ = dict.__setitem__$/;"	v	class:OptimizeResult	file:
+__version__	__init__.py	/^__version__ = '1.0.0.dev1'$/;"	v
+__version__	_im_utils.py	/^__version__ = '1.2.2'$/;"	v
+__version__	base.py	/^__version__ = '1.1.0'$/;"	v
+__version__	base_features.py	/^__version__ = '1.0.0'$/;"	v
+__version__	base_filters.py	/^__version__ = '1.0.0'$/;"	v
+__version__	base_lines.py	/^__version__ = '1.1.0'$/;"	v
+__version__	imgfolder.py	/^__version__ = '1.2.1'$/;"	v
+__version__	imglog.py	/^__version__ = '1.0.0'$/;"	v
+__version__	microimage.py	/^__version__ = '1.2.1'$/;"	v
+__version__	rfit.py	/^__version__ = '1.0.0'$/;"	v
+_as_grey	base.py	/^def _as_grey(frame):$/;"	f
+_build_coordinates	base_filters.py	/^    def _build_coordinates(self):$/;"	m	class:NoiseGater
+_build_hanning_window	base_filters.py	/^def _build_hanning_window(Nx, Ny):$/;"	f
+_check_unknown_options	fmin.py	/^def _check_unknown_options(unknown_options):$/;"	f
+_denoise	base_filters.py	/^    def _denoise(self, img, method='fastNl', intensity=-1, **kwargs):$/;"	m	class:ImageFilter
+_detect_angles	base_lines.py	/^    def _detect_angles(self, threshold_image, min_length=100, max_line_gap=10, threshold=50, sho/;"	m	class:ImageLine
+_detect_channel	base_lines.py	/^    def _detect_channel(self, img, window=11, compareRatio=0.2, minimumIntensity=0.1, show=True)/;"	m	class:ImageLine
+_exposure	base_filters.py	/^    def _exposure(self, img, method='adapt', intensity=-1):$/;"	m	class:ImageFilter
+_filters	base_filters.py	/^    def _filters(self, img, method='', intensity=-1, **kwargs):$/;"	m	class:ImageFilter
+_find_after	base_lines.py	/^def _find_after(a, a0):$/;"	f
+_find_before	base_lines.py	/^def _find_before(a, a0):$/;"	f
+_find_channel	_im_utils.py	/^def _find_channel(image, window=11, compareRatio=0.2, minimumIntensity=0.1):$/;"	f
+_find_channel	base_lines.py	/^def _find_channel(image, window=11, compareRatio=0.2, minimumIntensity=0.1):$/;"	f
+_find_frame_shift	base_features.py	/^    def _find_frame_shift(self, img1, img2, show=False):$/;"	m	class:ImageFeature
+_find_shadowline_x	base_lines.py	/^    def _find_shadowline_x(self, img, y=-1, xf=-1, show=True):$/;"	m	class:ImageLine
+_fitline	base_lines.py	/^    def _fitline(self, line_obj, method='gaussian', show=True, **kwargs):$/;"	m	class:ImageLine
+_fitline_x	base_lines.py	/^    def _fitline_x(self, img, y=-1, method='peaks', show=True, **kwargs):$/;"	m	class:ImageLine
+_fitline_y	base_lines.py	/^    def _fitline_y(self, img, x=-1, method='peaks', show=True, **kwargs):$/;"	m	class:ImageLine
+_fitlines_x	base_lines.py	/^    def _fitlines_x(self, img, locs=-1, method='gaussian', update=False, **kwargs):$/;"	m	class:ImageLine
+_fmin_iteration	fmin.py	/^def _fmin_iteration(fcalls, func, maxfun, maxiter, sim, xatol, fatol, rho, chi, psi, sigma, N):$/;"	f
+_getline	base_lines.py	/^def _getline(img, x0, y0, x1, y1, num_min=100):$/;"	f
+_getline_obj	base_lines.py	/^    def _getline_obj(self, img, coords=None):$/;"	m	class:ImageLine
+_getline_x	base_lines.py	/^    def _getline_x(self, img, y=-1, ignore_wall=False):$/;"	m	class:ImageLine
+_getline_y	base_lines.py	/^    def _getline_y(self, img, x=-1):$/;"	m	class:ImageLine
+_hist	base.py	/^    def _hist(self, img, frame=-1, normal=False, bins=256, autorange=True, ax=None):$/;"	m	class:ImageBase
+_inflectionpoints	base_lines.py	/^    def _inflectionpoints(self, xdata, verb=False):$/;"	m	class:ImageLine
+_kmean	base_filters.py	/^    def _kmean(self, img, n_cluster=5, show=False):$/;"	m	class:ImageFilter
+_minimize_neldermead	fmin.py	/^def _minimize_neldermead(func, x0, args=(),$/;"	f
+_normalize_image	base.py	/^def _normalize_image(img, img_new):$/;"	f
+_open_bioformat	base.py	/^    def _open_bioformat(self, filename):$/;"	m	class:ImageBase
+_open_nd2	base.py	/^    def _open_nd2(self, filename, nd2_m, nd2_c):$/;"	m	class:ImageBase
+_open_pims	base.py	/^    def _open_pims(self, filename):$/;"	m	class:ImageBase
+_open_sif	base.py	/^    def _open_sif(self, filename):$/;"	m	class:ImageBase
+_open_tif	base.py	/^    def _open_tif(self, filename):$/;"	m	class:ImageBase
+_operation_list	base_filters.py	/^def _operation_list(name):$/;"	f
+_piv_frame	base_features.py	/^    def _piv_frame(self, img1, img2, show=False, **kwargs):$/;"	m	class:ImageFeature
+_plotAxis	_im_utils.py	/^def _plotAxis(image, axis=0, background=0, backstd=0, window=None):$/;"	f
+_plotAxis	base_lines.py	/^def _plotAxis(image, axis=0, background=0, backstd=0, window=None):$/;"	f
+_preprocess	microimage.py	/^    def _preprocess(self, obj=-1):$/;"	m	class:mImage
+_process_from_string	base_filters.py	/^    def _process_from_string(self, frame, instr_str):$/;"	m	class:ImageFilter
+_process_section	base_filters.py	/^    def _process_section(self, i):$/;"	m	class:NoiseGater
+_register	base_filters.py	/^    def _register(self, frame, img):$/;"	m	class:ImageFilter
+_remove_cell	base_filters.py	/^    def _remove_cell(self, img, percentile=0.1, n_cluster=2):$/;"	m	class:ImageFilter
+_rescale_to_dtype	base.py	/^def _rescale_to_dtype(img, types):$/;"	f
+_resize_image	imgfolder.py	/^def _resize_image(img, max_width, max_height):$/;"	f
+_save	base.py	/^    def _save(self, img, appendix='', prefix='', savename=None, format='tif'):$/;"	m	class:ImageBase
+_show	base.py	/^    def _show(self, img, autorange=True, **kwargs):$/;"	m	class:ImageBase
+_showThresh	_im_utils.py	/^def _showThresh(image, percentage=0.1, smoothing_pixel=30):$/;"	f
+_show_lineobj	base_lines.py	/^    def _show_lineobj(self, line_obj, msg='', **kwargs):$/;"	m	class:ImageLine
+_showimage	base.py	/^    def _showimage(self, img, simple=False, autorange=True, frameNumber=True, ax=None, **kwargs)/;"	m	class:ImageBase
+_showimage	microimage.py	/^    def _showimage(self, img, simple=False, frameNumber=True):$/;"	m	class:mImage
+_smooth	_im_utils.py	/^def _smooth(x, window_len=11, window='flat'):$/;"	f
+_smooth	base_lines.py	/^def _smooth(x, window_len=11, window='flat'):$/;"	f
+_status_message	fmin.py	/^_status_message = {'success': 'Optimization terminated successfully.',$/;"	v
+_threshold	base_filters.py	/^    def _threshold(self, img, method='otsu', erode_iter=0, show=True, **kwargs):$/;"	m	class:ImageFilter
+_update_array	base.py	/^def _update_array(raw, new, flags=None):$/;"	f
+_zprofile	base_lines.py	/^def _zprofile(imgMean, location, width=2):$/;"	f
+_zprojection	base.py	/^    def _zprojection(self, update=False, method='mean', types='orig'):$/;"	m	class:ImageBase
+addtrack	imgfolder.py	/^    def addtrack(self, t, tid=-1):$/;"	m	class:ImgFolder
+analysis_10x	imglog.py	/^    def analysis_10x(self, fileID, bfileID=-1, wallinfo=[], p=-1, method='gaussian', update=True/;"	m	class:ImgLog
+analysis_all	imglog.py	/^    def analysis_all(self, blist, flist):$/;"	m	class:ImgLog
+appendimages	_im_utils.py	/^def appendimages(im1, im2):$/;"	f
+as_grey	microimage.py	/^        def as_grey(frame):$/;"	f	member:mImage.open	file:
+asarray	base.py	/^    def asarray(self):$/;"	m	class:ImageBase
+asarray	microimage.py	/^    def asarray(self):$/;"	m	class:mImage
+asframe	base.py	/^    def asframe(self):$/;"	m	class:ImageBase
+asframe	microimage.py	/^    def asframe(self):$/;"	m	class:mImage
+beamInfo	microimage.py	/^    def beamInfo(self, showGraph=False):$/;"	m	class:mImage
+blur_image	_im_utils.py	/^def blur_image(im, n, ny=None):$/;"	f
+box_view	base_features.py	/^    def box_view(self, box_number=0):$/;"	m	class:ImageFeature
+box_view	microimage.py	/^    def box_view(self, box_number=0):$/;"	m	class:mImage
+calAreabyIntensity	base_features.py	/^    def calAreabyIntensity(self, ranges, frame=-1, show=True):$/;"	m	class:ImageFeature
+calAreabyIntensity	microimage.py	/^    def calAreabyIntensity(self, ranges, frame=-1, show=True):$/;"	m	class:mImage
+calculate_beta	base_filters.py	/^    def calculate_beta(self, beta_percentile=50, beta_count=200):$/;"	m	class:NoiseGater
+caltrackmsd	imgfolder.py	/^    def caltrackmsd(self, m_to_p=0.0645, fps=2, plot=True):$/;"	m	class:ImgFolder
+channelInfo	microimage.py	/^    def channelInfo(self, window=11, compareRatio=0.2, minimumIntensity=0.1, show=True):$/;"	m	class:mImage
+check_frame_angle	microimage.py	/^    def check_frame_angle(self, minthresh=60, maxthresh=110, minlength=250):$/;"	m	class:mImage
+clean	base_filters.py	/^    def clean(self):$/;"	m	class:NoiseGater
+compute_harris_response	_im_utils.py	/^def compute_harris_response(im, sigma=3):$/;"	f
+convert_sif_pgm	pgm.py	/^def convert_sif_pgm(filename):$/;"	f
+crop	base_features.py	/^    def crop(self, margin=30, box_arr=None, save=True, **kwargs):$/;"	m	class:ImageFeature
+crop	microimage.py	/^    def crop(self, margin=30, min_size=30, erode_iter=2, verb=False, box_arr=[]):$/;"	m	class:mImage
+delete	imgfolder.py	/^    def delete(self, fileidx=-1):$/;"	m	class:ImgFolder
+deltrack	imgfolder.py	/^    def deltrack(self, tid):$/;"	m	class:ImgFolder
+denoise	_im_utils.py	/^def denoise(im, U_init, tolerance=0.1, tau=0.125, tv_weight=100):$/;"	f
+denoise	base_filters.py	/^    def denoise(self, frame=-1, method='fastNl', intensity=-1, **kwargs):$/;"	m	class:ImageFilter
+denoise	microimage.py	/^    def denoise(self, frame=-1, method='fastNl', intensity=-1, show=False, save=False, **keyword/;"	m	class:mImage
+denoise_all	microimage.py	/^    def denoise_all(self, method='fastNl', intensity=-1, refresh=False, **keywords):$/;"	m	class:mImage
+detect_angles	base_lines.py	/^    def detect_angles(self, frame=-1, method1='canny', method2=None, min_length=100, show=True):$/;"	m	class:ImageLine
+detect_blob	base_features.py	/^    def detect_blob(self, frame=-1, res=5, **kwargs):$/;"	m	class:ImageFeature
+detect_blob	microimage.py	/^    def detect_blob(self, frame=-1, method='trackpy', res=5, show=True, minmass=0):$/;"	m	class:mImage
+detect_channel	base_lines.py	/^    def detect_channel(self, window=11, compareRatio=0.2, minimumIntensity=0.1, angle=0.0, show=/;"	m	class:ImageLine
+detect_channel	imglog.py	/^    def detect_channel(self, fileID=-1, show=True):$/;"	m	class:ImgLog
+detect_drift	microimage.py	/^    def detect_drift(self, frames=-1, min_size=200, show=True, save=False, erode_iter=1, full=Tr/;"	m	class:mImage
+detect_drifts	base_features.py	/^    def detect_drifts(self, frames=-1, min_size=200, show=True, save=False, full=True, **kwargs)/;"	m	class:ImageFeature
+detect_trace	microimage.py	/^    def detect_trace(self, res=5, minmass=100, length=5, psize=0.0, ecc=1.0, show=True, drift=[]/;"	m	class:mImage
+detect_traces	base_features.py	/^    def detect_traces(self, frames=-1, res=5, margin=30, ids=None, **kwargs):$/;"	m	class:ImageFeature
+draw_circle	_im_utils.py	/^    def draw_circle(c, r):$/;"	f	function:plot_features	file:
+erf	rfit.py	/^def erf(k, x):$/;"	f
+exposure	base_filters.py	/^    def exposure(self, frame=-1, method='adapt', **kwargs):$/;"	m	class:ImageFilter
+filters	base_filters.py	/^    def filters(self, frame=-1, method='sharpen', intensity=-1, **kwargs):$/;"	m	class:ImageFilter
+find_after	_im_utils.py	/^def find_after(a, a0):$/;"	f
+find_before	_im_utils.py	/^def find_before(a, a0):$/;"	f
+find_contour	base_features.py	/^    def find_contour(self, frame=-1, threshold=None, show=True, min_size=30, max_size=-1, max_bo/;"	m	class:ImageFeature
+find_contour	microimage.py	/^    def find_contour(self, frame=-1, threshold=None, show=True, min_size=30, max_size=-1, max_bo/;"	m	class:mImage
+find_frame_shift	base_features.py	/^    def find_frame_shift(self, frame=-1, frame_delta=1, show=True):$/;"	m	class:ImageFeature
+find_frame_shifts	base_features.py	/^    def find_frame_shifts(self, show=True, method='fft'):$/;"	m	class:ImageFeature
+find_shift	base_features.py	/^def find_shift(image0, image1):$/;"	f
+fitGaussian	microimage.py	/^def fitGaussian(x, data, baseline=0.0, verb=False):$/;"	f
+fit_gaussian	base_lines.py	/^    def fit_gaussian(self, nu=1000, peaks=[], amps=[], sigmas=[], baseline=0.0):$/;"	m	class:LineObject
+fit_gaussian2	base_lines.py	/^    def fit_gaussian2(self, nu=30.0, peaks=[], amps=[], sigmas=[], baseline=0.0, mode='single'):$/;"	m	class:LineObject
+fit_gaussian3	base_lines.py	/^    def fit_gaussian3(self, nu=30.0, peaks=[], amps=[], sigmas=[], baseline=0.0, mode='single'):$/;"	m	class:LineObject
+fit_gaussian_from	base_lines.py	/^    def fit_gaussian_from(self, nu=1000, kfit=[]):$/;"	m	class:LineObject
+fit_peaks	base_lines.py	/^    def fit_peaks(self, topn=1, **kwargs):$/;"	m	class:LineObject
+fit_sigmoid	base_lines.py	/^    def fit_sigmoid(self):$/;"	m	class:LineObject
+fitline_x	base_lines.py	/^    def fitline_x(self, frame=-1, y=-1, method='peaks', show=True, **kwargs):$/;"	m	class:ImageLine
+fitline_y	base_lines.py	/^    def fitline_y(self, frame=-1, x=-1, method='peaks', show=True, **kwargs):$/;"	m	class:ImageLine
+fitlines_x	base_lines.py	/^    def fitlines_x(self, locs=-1, method='gaussian', update=False, **kwargs):$/;"	m	class:ImageLine
+fmin	fmin.py	/^def fmin(func, x0, args=(), xtol=1e-4, ftol=1e-4, maxiter=None, maxfun=None,$/;"	f
+from_x	base_lines.py	/^    def from_x(cls, img, y0, debug=False):$/;"	m	class:LineObject
+from_y	base_lines.py	/^    def from_y(cls, img, x0, debug=False):$/;"	m	class:LineObject
+func	_im_utils.py	/^def func(x, a, b, c):$/;"	f
+function_wrapper	fmin.py	/^    def function_wrapper(*wrapper_args):$/;"	f	function:wrap_function	file:
+gauss	fp.py	/^def gauss(x, mu, sig):$/;"	f
+gauss_kern	_im_utils.py	/^def gauss_kern(size, sizey=None):$/;"	f
+gaussian	_im_utils.py	/^def gaussian(k, x):$/;"	f
+gaussian	rfit.py	/^def gaussian(k, x):$/;"	f
+gaussian2	rfit.py	/^def gaussian2(k, x):$/;"	f
+gaussian3	rfit.py	/^def gaussian3(k, x):$/;"	f
+get	base_lines.py	/^    def get(self, smooth=0, window='flat', dt=False):$/;"	m	class:LineObject
+getKey	imgfolder.py	/^def getKey(filename):$/;"	f
+get_coord	base_lines.py	/^    def get_coord(self):$/;"	m	class:LineObject
+get_descriptors	_im_utils.py	/^def get_descriptors(image, filtered_coords, wid=5):$/;"	f
+get_harris_points	_im_utils.py	/^def get_harris_points(harrisim, min_dist=10, threshold=0.1):$/;"	f
+get_line_fit	microimage.py	/^    def get_line_fit(self, loc=0, direction='x', nu=1000, show=True):$/;"	m	class:mImage
+get_peaks	base_lines.py	/^    def get_peaks(self, dt=False, width=5, prominence=0.005, sort=False, **kwargs):$/;"	m	class:LineObject
+get_peaks	microimage.py	/^    def get_peaks(self, locs=-1, nu=1000, update=False, parallel=False):$/;"	m	class:mImage
+get_piv_vel	base_features.py	/^    def get_piv_vel(self, window=[], verbose=True):$/;"	m	class:ImageFeature
+get_timescale	fp.py	/^def get_timescale(pe):$/;"	f
+getfile	imgfolder.py	/^    def getfile(self, fileID=-1):$/;"	m	class:ImgFolder
+getframe	base.py	/^    def getframe(self, frame=-1, types='pims', orig=False):$/;"	m	class:ImageBase
+getframe	imgfolder.py	/^    def getframe(self, fileID=-1, frame=-1, types='pims'):$/;"	m	class:ImgFolder
+getframe	microimage.py	/^    def getframe(self, frame=-1, types='pims', orig=False):$/;"	m	class:mImage
+getline_obj	base_lines.py	/^    def getline_obj(self, frame=-1, coords=None):$/;"	m	class:ImageLine
+getline_x	base_lines.py	/^    def getline_x(self, frame=-1, y=-1):$/;"	m	class:ImageLine
+getline_y	base_lines.py	/^    def getline_y(self, frame=-1, x=-1):$/;"	m	class:ImageLine
+getlines_x_shadow	base_lines.py	/^    def getlines_x_shadow(self, locations, raw=False):$/;"	m	class:ImageLine
+hanning_window_2D	base_filters.py	/^    hanning_window_2D = lambda x, y: np.power(np.sin((x + 0.5)*np.pi \/ Nx), 2.0) * np.power(np./;"	f	function:_build_hanning_window	file:
+hist	microimage.py	/^    def hist(self, frame=-1, img=None):$/;"	m	class:mImage
+histFrame	base.py	/^    def histFrame(self, frame=-1, types='orig', normal=False, bins=256):$/;"	m	class:ImageBase
+histMax	base.py	/^    def histMax(self, update=False, types='orig', normal=False, bins=256):$/;"	m	class:ImageBase
+histMean	base.py	/^    def histMean(self, update=False, types='float', normal=False, bins=256):$/;"	m	class:ImageBase
+histMin	base.py	/^    def histMin(self, update=False, types='orig', normal=False, bins=256):$/;"	m	class:ImageBase
+image	pgm.py	/^    image = read_pgm("foo.pgm", byteorder='<')$/;"	v
+image_operations	base_filters.py	/^image_operations = [('exposure', ['contrast', 'equalization', 'adapt', 'local', 'gamma', 'sigmoi/;"	v
+imlib2	README.md	/^# imlib2$/;"	c
+inverseabs	rfit.py	/^def inverseabs(k, x):$/;"	f
+kmean	base_filters.py	/^    def kmean(self, frame=-1, n_cluster=5, show=False):$/;"	m	class:ImageFilter
+kmean	microimage.py	/^    def kmean(self, frame=-1, n_cluster=5, show=False):$/;"	m	class:mImage
+line	_im_utils.py	/^def line(k, x):$/;"	f
+line	rfit.py	/^def line(k, x):$/;"	f
+lineprofile	microimage.py	/^    def lineprofile(self, lpos, frame=-1, peaks=[], amps=[], sigmas=[], baseline=0.0, single=Tru/;"	m	class:mImage
+list	imgfolder.py	/^    def list(self):$/;"	m	class:ImgFolder
+loadLog	imglog.py	/^    def loadLog(self):$/;"	m	class:ImgLog
+load_piv	base_features.py	/^    def load_piv(self):$/;"	m	class:ImageFeature
+loadtrack	imgfolder.py	/^    def loadtrack(self):$/;"	m	class:ImgFolder
+loss	_im_utils.py	/^def loss(k, x, y, f, nu):$/;"	f
+loss	rfit.py	/^def loss(k, x, y, f, nu):$/;"	f
+mImage	microimage.py	/^class mImage(object):$/;"	c
+make_frame	base.py	/^        def make_frame(t):$/;"	f	member:ImageBase.saveMovie	file:
+make_frame	microimage.py	/^        def make_frame(t):$/;"	f	member:mImage.save_movie	file:
+match	_im_utils.py	/^def match(desc1, desc2):$/;"	f
+match_h	_im_utils.py	/^def match_h(desc1, desc2, threshold=0.5):$/;"	f
+match_twosided	_im_utils.py	/^def match_twosided(desc1, desc2):$/;"	f
+match_twosided_h	_im_utils.py	/^def match_twosided_h(desc1, desc2, threshold=0.5):$/;"	f
+matches	microimage.py	/^    def matches(self, frame1=-1, frame2=-1):$/;"	m	class:mImage
+max	base.py	/^    def max(self, update=False, types='orig'):$/;"	m	class:ImageBase
+max	microimage.py	/^    def max(self, update=False):$/;"	m	class:mImage
+mean	base.py	/^    def mean(self, update=False, types='float'):$/;"	m	class:ImageBase
+mean	microimage.py	/^    def mean(self, scale=-1, update=False):$/;"	m	class:mImage
+min	base.py	/^    def min(self, update=False, types='orig'):$/;"	m	class:ImageBase
+min	microimage.py	/^    def min(self, update=False):$/;"	m	class:mImage
+mp	base_features.py	/^import multiprocessing as mp$/;"	I
+np	_im_utils.py	/^import numpy as np$/;"	I
+np	base.py	/^import numpy as np$/;"	I
+np	base_features.py	/^import numpy as np$/;"	I
+np	base_filters.py	/^import numpy as np$/;"	I
+np	base_lines.py	/^import numpy as np$/;"	I
+np	fmin.py	/^import numpy as np$/;"	I
+np	fp.py	/^import numpy as np$/;"	I
+np	imgfolder.py	/^import numpy as np$/;"	I
+np	imglog.py	/^if ('np' not in dir()): import numpy as np$/;"	I
+np	microimage.py	/^import numpy as np$/;"	I
+np	pgm.py	/^import numpy as np$/;"	I
+np	rfit.py	/^import numpy as np$/;"	I
+open	base.py	/^    def open(self, filename, method='tifffile', nd2_m=0, nd2_c=1):$/;"	m	class:ImageBase
+open	microimage.py	/^    def open(self, filename, method='pims'):$/;"	m	class:mImage
+os	pgm.py	/^import os as os$/;"	I
+pd	base_features.py	/^import pandas as pd$/;"	I
+pd	base_lines.py	/^import pandas as pd$/;"	I
+pd	imgfolder.py	/^import pandas as pd$/;"	I
+pd	imglog.py	/^import pandas as pd$/;"	I
+pd	microimage.py	/^import pandas as pd$/;"	I
+phi	fp.py	/^def phi(x, pe):$/;"	f
+piv_frame	base_features.py	/^    def piv_frame(self, frame=-1, frame_delta=1, show=True, **kwargs):$/;"	m	class:ImageFeature
+piv_frames	base_features.py	/^    def piv_frames(self, topn=-1, show=True):$/;"	m	class:ImageFeature
+plot	base_lines.py	/^    def plot(self, msg="", ax=None, **kwargs):$/;"	m	class:LineObject
+plotXaxis	microimage.py	/^    def plotXaxis(self, bg=0.0, bgstd=0.0, window=None):$/;"	m	class:mImage
+plotYaxis	microimage.py	/^    def plotYaxis(self, bg=0.0, bgstd=0.0, window=None):$/;"	m	class:mImage
+plot_features	_im_utils.py	/^def plot_features(im, locs, circle=False):$/;"	f
+plot_harris_points	_im_utils.py	/^def plot_harris_points(image, filtered_coords):$/;"	f
+plot_lines_3d	base_lines.py	/^    def plot_lines_3d(self, frame=-1, locations=[]):$/;"	m	class:ImageLine
+plot_matches	_im_utils.py	/^def plot_matches(im1, im2, locs1, locs2, matchscores, show_below=True):$/;"	f
+plottrack	imgfolder.py	/^    def plottrack(self, windowsize=2.0):$/;"	m	class:ImgFolder
+plt	_im_utils.py	/^import matplotlib.pyplot as plt$/;"	I
+plt	base.py	/^import matplotlib.pyplot as plt$/;"	I
+plt	base_features.py	/^import matplotlib.pyplot as plt$/;"	I
+plt	base_filters.py	/^import matplotlib.pyplot as plt$/;"	I
+plt	base_lines.py	/^import matplotlib.pyplot as plt$/;"	I
+plt	imgfolder.py	/^import matplotlib.pyplot as plt$/;"	I
+plt	microimage.py	/^import matplotlib.pyplot as plt$/;"	I
+poly2	rfit.py	/^def poly2(k, x):$/;"	f
+preload	microimage.py	/^    def preload(self, update=False):$/;"	m	class:mImage
+preview	imgfolder.py	/^    def preview(self, update=False, ncol=-1, max_width=400, max_height=400):$/;"	m	class:ImgFolder
+process_all_from_string	base_filters.py	/^    def process_all_from_string(self, instr_str):$/;"	m	class:ImageFilter
+process_image	_im_utils.py	/^def process_image(img, resultname, params="--edge-thresh 10 --peak-thresh 5"):$/;"	f
+projectedGD_ROf	_im_utils.py	/^def projectedGD_ROf(image, clambda, iters=100):$/;"	f
+prox_project	_im_utils.py	/^def prox_project(clambda, z):$/;"	f
+psi_even	fp.py	/^def psi_even(x, xp, t, tp, pe, n, tolerance=1e-6):$/;"	f
+psi_odd	fp.py	/^def psi_odd(x, xp, t, tp, pe, n, tolerance=1e-6):$/;"	f
+psi_s	fp.py	/^def psi_s(x, pe):$/;"	f
+readTif	_im_utils.py	/^def readTif(filename, method='full'):$/;"	f
+read_features_from_file	_im_utils.py	/^def read_features_from_file(filename):$/;"	f
+read_pgm	pgm.py	/^def read_pgm(filename, byteorder='>'):$/;"	f
+remove_cell	microimage.py	/^    def remove_cell(self, frame=-1, percentile=0.1, show=True):$/;"	m	class:mImage
+remove_cells	microimage.py	/^    def remove_cells(self, frames=-1, percentile=0.1, save=True):$/;"	m	class:mImage
+reverse	base.py	/^    def reverse(self, frame=-1):$/;"	m	class:ImageBase
+reverse	base_lines.py	/^    def reverse(self):$/;"	m	class:LineObject
+robust_gaussian2_fit	rfit.py	/^def robust_gaussian2_fit(x, y, nu=1.0, initial=[1.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0], verb=False):$/;"	f
+robust_gaussian3_fit	rfit.py	/^def robust_gaussian3_fit(x, y, nu=1.0, initial=[1.0, 0.0, 1.0, 1.0, -1.0, 1.0, 1.0, 1.0, 1.0, 0./;"	f
+robust_gaussian_fit	_im_utils.py	/^def robust_gaussian_fit(x, y, nu=1.0, initial=[1.0, 0.0, 1.0, 0.0], verb=False):$/;"	f
+robust_gaussian_fit	rfit.py	/^def robust_gaussian_fit(x, y, nu=1.0, initial=[1.0, 0.0, 1.0, 0.0], verb=False):$/;"	f
+robust_inverseabs_fit	rfit.py	/^def robust_inverseabs_fit(x, y, nu=1.0, initial=[1.0, 0.0, 1.0], verb=False):$/;"	f
+robust_line_fit	_im_utils.py	/^def robust_line_fit(x, y, nu=1.0, initial=[1.0, 0.0], verb=False):$/;"	f
+robust_line_fit	rfit.py	/^def robust_line_fit(x, y, nu=1.0, initial=[0.1, 0.0], verb=False):$/;"	f
+robust_poly2_fit	rfit.py	/^def robust_poly2_fit(x, y, nu=1.0, initial=[0.1, 0.1, 0], verb=False):$/;"	f
+rotate_bound	base_lines.py	/^def rotate_bound(image, angle):$/;"	f
+saveLog	imglog.py	/^    def saveLog(self):$/;"	m	class:ImgLog
+saveMax	base.py	/^    def saveMax(self, update=False, types='orig', prefix='.', format='tif'):$/;"	m	class:ImageBase
+saveMean	base.py	/^    def saveMean(self, update=False, types='orig', prefix='.', format='tif'):$/;"	m	class:ImageBase
+saveMin	base.py	/^    def saveMin(self, update=False, types='orig', prefix='.', format='tif'):$/;"	m	class:ImageBase
+saveMovie	base.py	/^    def saveMovie(self, zoomfactor=1.0, savename='None', appendix='', update=False, fps=25):$/;"	m	class:ImageBase
+saveTif	base.py	/^    def saveTif(self, appendix=-1, box_arr=None, margin=0):$/;"	m	class:ImageBase
+save_movie	microimage.py	/^    def save_movie(self, zoomfactor=1.0, savename='None', update=False, verbose=True):$/;"	m	class:mImage
+save_piv	base_features.py	/^    def save_piv(self):$/;"	m	class:ImageFeature
+save_tif	microimage.py	/^    def save_tif(self, appendix=-1, box_arr=None, margin=0):$/;"	m	class:mImage
+saveframe	microimage.py	/^    def saveframe(self, filename, simple=False):$/;"	m	class:mImage
+savetrack	imgfolder.py	/^    def savetrack(self):$/;"	m	class:ImgFolder
+search_filename	imgfolder.py	/^    def search_filename(self, str_pattern):$/;"	m	class:ImgFolder
+setBaseline	imgfolder.py	/^    def setBaseline(self, base):$/;"	m	class:ImgFolder
+setColorMap	imgfolder.py	/^    def setColorMap(self, cmapname):$/;"	m	class:ImgFolder
+setFilter	microimage.py	/^    def setFilter(self, filtername):$/;"	m	class:mImage
+setFit	imgfolder.py	/^    def setFit(self, on):$/;"	m	class:ImgFolder
+setSaveWindow	imgfolder.py	/^    def setSaveWindow(self, on):$/;"	m	class:ImgFolder
+set_expInfo	base_lines.py	/^    def set_expInfo(self, magnification=None, velocity=-1, p=-1, fangle=0.0, psize=-1, ccd_lengt/;"	m	class:ImageLine
+set_log	imglog.py	/^    def set_log(self, colname, values, ranges=[]):$/;"	m	class:ImgLog
+set_wallinfo	base_lines.py	/^    def set_wallinfo(self, wallinfo=[0, 512, 0, 512], show=False):$/;"	m	class:ImageLine
+sharpen	microimage.py	/^    def sharpen(self, frame=-1, amount=0.3, show=False, save=False):$/;"	m	class:mImage
+shift2	base_features.py	/^def shift2(arr):$/;"	f
+show	base.py	/^    def show(self, frame=-1, types='orig', autorange=True, **kwargs):$/;"	m	class:ImageBase
+showFrame	base.py	/^    def showFrame(self, frame=-1, simple=False, **kwargs):$/;"	m	class:ImageBase
+showMax	base.py	/^    def showMax(self, simple=False):$/;"	m	class:ImageBase
+showMax	microimage.py	/^    def showMax(self, view=True, simple=False):$/;"	m	class:mImage
+showMean	base.py	/^    def showMean(self, simple=False):$/;"	m	class:ImageBase
+showMean	microimage.py	/^    def showMean(self, simple=False):$/;"	m	class:mImage
+showMin	base.py	/^    def showMin(self, simple=False):$/;"	m	class:ImageBase
+showMin	microimage.py	/^    def showMin(self, view=True, simple=False):$/;"	m	class:mImage
+showTwo	_im_utils.py	/^def showTwo(image1, image2):$/;"	f
+show_angles	microimage.py	/^    def show_angles(self, limits=-1, update=False):$/;"	m	class:mImage
+show_peaks	microimage.py	/^    def show_peaks(self, update=False):$/;"	m	class:mImage
+show_sigmas	microimage.py	/^    def show_sigmas(self, limits=-1, update=False):$/;"	m	class:mImage
+showfit_angles	base_lines.py	/^    def showfit_angles(self, ranges=[], show=True, save=True, **kwargs):$/;"	m	class:ImageLine
+showfit_peaks	base_lines.py	/^    def showfit_peaks(self, ranges=[], save=False, ax=None):$/;"	m	class:ImageLine
+showfit_sigmas	base_lines.py	/^    def showfit_sigmas(self, ranges=[], show=True, save=True, colname="delta", **kwargs):$/;"	m	class:ImageLine
+showframe	microimage.py	/^    def showframe(self, frame=-1, simple=False):$/;"	m	class:mImage
+showinfo	imglog.py	/^    def showinfo(self, colname='mag', condition='10x'):$/;"	m	class:ImgLog
+showline	microimage.py	/^    def showline(self, lines=-1, dir='y', log=False, window=[0, 0], save=False, fit=False, smoot/;"	m	class:mImage
+showlines	base_lines.py	/^    def showlines(self, lines=-1, dir='y', log=False, window=[0, 0], save=False, fit=False, smoo/;"	m	class:ImageLine
+showlines_allx	base_lines.py	/^    def showlines_allx(self, bg=0.0, bgstd=0.0, window=None):$/;"	m	class:ImageLine
+showlines_ally	base_lines.py	/^    def showlines_ally(self, bg=0.0, bgstd=0.0, window=None):$/;"	m	class:ImageLine
+showmultiple	microimage.py	/^def showmultiple(imgs):$/;"	f
+shownext	microimage.py	/^    def shownext(self, simple=False):$/;"	m	class:mImage
+showprevious	microimage.py	/^    def showprevious(self, simple=False):$/;"	m	class:mImage
+sift	microimage.py	/^    def sift(self, frame=-1, show=True):$/;"	m	class:mImage
+threshold	base_filters.py	/^    def threshold(self, frame=-1, method='otsu', erode_iter=0, **kwargs):$/;"	m	class:ImageFilter
+threshold	microimage.py	/^    def threshold(self, frame=-1, method='otsu', erode_iter=0, show=True, save=False, img=None):$/;"	m	class:mImage
+ticker	base_lines.py	/^import matplotlib.ticker as ticker$/;"	I
+ticker	microimage.py	/^        import matplotlib.ticker as ticker$/;"	I	member:mImage.showline	file:
+tp	base_features.py	/^        import trackpy as tp$/;"	I	member:ImageFeature.detect_blob	file:
+tp	base_features.py	/^        import trackpy as tp$/;"	I	member:ImageFeature.detect_traces	file:
+tp	imgfolder.py	/^            import trackpy as tp$/;"	I	member:ImgFolder.caltrackmsd	file:
+tp	microimage.py	/^import trackpy as tp$/;"	I
+transition_prob	fp.py	/^def transition_prob(x, xp, t, tp, pe, n=100):$/;"	f
+uniform	fp.py	/^def uniform(x):$/;"	f
+utils	microimage.py	/^import imlib._im_utils as utils$/;"	I
+wfunc	fmin.py	/^    def wfunc(*wrapper_args):$/;"	f	function:_minimize_neldermead	file:
+wrap_function	fmin.py	/^def wrap_function(function, args):$/;"	f
+write_features_to_file	_im_utils.py	/^def write_features_to_file(filename, locs, desc):$/;"	f
+zprofile	_im_utils.py	/^def zprofile(imgMean, location):$/;"	f

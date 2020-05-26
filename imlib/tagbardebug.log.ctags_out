@@ -1,0 +1,5 @@
+  Option: --language-force=vim
+  Option: --vim-kinds=nvfacm
+Initialize parser: Vim
+Reading command line arguments
+ctags: Warning: cannot open input file "/tmp/nvimm15cR5/5.vim" : No such file or directory

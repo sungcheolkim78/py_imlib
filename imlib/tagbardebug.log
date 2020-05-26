@@ -1,0 +1,172 @@
+
+
+NVIM v0.3.4
+Build type: Release
+LuaJIT 2.0.5
+Compilation: /usr/lib64/ccache/cc -Wconversion -DMIN_LOG_LEVEL=3 -Wall -Wextra -pedantic -Wno-unused-parameter -Wstrict-prototypes -std=gnu99 -Wimplicit-fallthrough -Wvla -fstack-protector-strong -fdiagnostics-color=auto -Wno-array-bounds -DINCLUDE_GENERATED_DECLARATIONS -D_GNU_SOURCE -DNVIM_UNIBI_HAS_VAR_FROM -I/projects/SharedFolder/Software/neovim/build/config -I/projects/SharedFolder/Software/neovim/src -I/projects/SharedFolder/Software/neovim/.deps/usr/include -I/usr/include -I/projects/SharedFolder/Software/neovim/build/src/nvim/auto -I/projects/SharedFolder/Software/neovim/build/include
+Compiled by sckim@nanobioserv-ibm-com
+
+Features: +acl +iconv +jemalloc +tui 
+See ":help feature-compile"
+
+   system vimrc file: "$VIM/sysinit.vim"
+  fall-back for $VIM: "/usr/local/share/nvim"
+
+Run :checkhealth for more info1970-01-05 12:22:23.873678: ToggleWindow called
+1970-01-05 12:22:23.876106: OpenWindow called with flags: ''
+1970-01-05 12:22:23.878211: Creating autocommands
+1970-01-05 12:22:23.880208: AutoUpdate called [/home/sckim/git_repos/imlib/imlib/base_filters.py]
+1970-01-05 12:22:23.881979: Vim filetype: 'python', sanitized filetype: 'python'
+1970-01-05 12:22:23.883633: Checking if file is valid [/home/sckim/git_repos/imlib/imlib/base_filters.py]
+1970-01-05 12:22:23.885646: File data seems up to date [/home/sckim/git_repos/imlib/imlib/base_filters.py]
+1970-01-05 12:22:23.887564: Setting current file [/home/sckim/git_repos/imlib/imlib/base_filters.py]
+1970-01-05 12:22:23.889827: AutoUpdate finished successfully
+1970-01-05 12:22:23.892872: AutoUpdate called [/home/sckim/git_repos/imlib/imlib/__Tagbar__.1]
+1970-01-05 12:22:23.894511: Still opening window, stopping processing
+1970-01-05 12:22:23.896192: InitWindow called with autoclose: 0
+1970-01-05 12:22:23.902872: AutoUpdate called [/home/sckim/git_repos/imlib/imlib/__Tagbar__.1]
+1970-01-05 12:22:23.904701: In Tagbar window, stopping processing
+1970-01-05 12:22:23.907424: InitWindow finished
+1970-01-05 12:22:23.909119: AutoUpdate called [/home/sckim/git_repos/imlib/imlib/base_filters.py]
+1970-01-05 12:22:23.910869: Vim filetype: 'python', sanitized filetype: 'python'
+1970-01-05 12:22:23.912389: Checking if file is valid [/home/sckim/git_repos/imlib/imlib/base_filters.py]
+1970-01-05 12:22:23.914336: File data seems up to date [/home/sckim/git_repos/imlib/imlib/base_filters.py]
+1970-01-05 12:22:23.916214: RenderContent called
+1970-01-05 12:22:23.918179: Redisplaying file [/home/sckim/git_repos/imlib/imlib/base_filters.py]
+1970-01-05 12:22:23.920283: No tags found, skipping printing.
+1970-01-05 12:22:23.922442: Setting current file [/home/sckim/git_repos/imlib/imlib/base_filters.py]
+1970-01-05 12:22:23.925194: AutoUpdate finished successfully
+1970-01-05 12:22:23.943108: AutoUpdate called [/home/sckim/git_repos/imlib/imlib/base_filters.py]
+1970-01-05 12:22:23.947650: Vim filetype: 'python', sanitized filetype: 'python'
+1970-01-05 12:22:23.949297: Checking if file is valid [/home/sckim/git_repos/imlib/imlib/base_filters.py]
+1970-01-05 12:22:23.951337: File data seems up to date [/home/sckim/git_repos/imlib/imlib/base_filters.py]
+1970-01-05 12:22:23.953365: Setting current file [/home/sckim/git_repos/imlib/imlib/base_filters.py]
+1970-01-05 12:22:23.955709: goto_win(): wincmd p, 1
+1970-01-05 12:22:23.957469: goto_win(): 2wincmd w, 1
+1970-01-05 12:22:23.959422: goto_win(): 2wincmd w, 1
+1970-01-05 12:22:23.961131: goto_win(): 1wincmd w, 1
+1970-01-05 12:22:23.962806: AutoUpdate finished successfully
+1970-01-05 12:22:23.964512: OpenWindow finished
+1970-01-05 12:22:23.966098: ToggleWindow finished
+1970-01-05 12:22:29.988175: AutoUpdate called [/home/sckim/git_repos/imlib/imlib/base_filters.py]
+1970-01-05 12:22:29.990464: Vim filetype: 'python', sanitized filetype: 'python'
+1970-01-05 12:22:29.993064: Checking if file is valid [/home/sckim/git_repos/imlib/imlib/base_filters.py]
+1970-01-05 12:22:29.995163: File data seems up to date [/home/sckim/git_repos/imlib/imlib/base_filters.py]
+1970-01-05 12:22:29.997608: Setting current file [/home/sckim/git_repos/imlib/imlib/base_filters.py]
+1970-01-05 12:22:30.000387: goto_win(): wincmd p, 1
+1970-01-05 12:22:30.002340: goto_win(): 2wincmd w, 1
+1970-01-05 12:22:30.004291: goto_win(): 2wincmd w, 1
+1970-01-05 12:22:30.006191: goto_win(): 1wincmd w, 1
+1970-01-05 12:22:30.007686: AutoUpdate finished successfully
+1970-01-05 12:23:03.270103: AutoUpdate called [/projects/sckim/.config/nvim/init.vim]
+1970-01-05 12:23:03.279359: Vim filetype: 'vim', sanitized filetype: 'vim'
+1970-01-05 12:23:03.283097: Checking if file is valid [/projects/sckim/.config/nvim/init.vim]
+1970-01-05 12:23:03.286283: File data seems up to date [/projects/sckim/.config/nvim/init.vim]
+1970-01-05 12:23:03.288723: RenderContent called
+1970-01-05 12:23:03.292713: goto_win(): wincmd p, 1
+1970-01-05 12:23:03.295271: goto_win(): 3wincmd w, 1
+1970-01-05 12:23:03.298258: No tags found, skipping printing.
+1970-01-05 12:23:03.300424: goto_win(): 2wincmd w, 1
+1970-01-05 12:23:03.302389: goto_win(): 1wincmd w, 1
+1970-01-05 12:23:03.304419: Setting current file [/projects/sckim/.config/nvim/init.vim]
+1970-01-05 12:23:03.306677: goto_win(): wincmd p, 1
+1970-01-05 12:23:03.308397: goto_win(): 3wincmd w, 1
+1970-01-05 12:23:03.310886: goto_win(): 2wincmd w, 1
+1970-01-05 12:23:03.313109: goto_win(): 1wincmd w, 1
+1970-01-05 12:23:03.322125: AutoUpdate finished successfully
+1970-01-05 12:23:03.332013: AutoUpdate called [/projects/sckim/.config/nvim/init.vim]
+1970-01-05 12:23:03.334678: Vim filetype: 'vim', sanitized filetype: 'vim'
+1970-01-05 12:23:03.337164: Checking if file is valid [/projects/sckim/.config/nvim/init.vim]
+1970-01-05 12:23:03.340609: File data seems up to date [/projects/sckim/.config/nvim/init.vim]
+1970-01-05 12:23:03.342740: Setting current file [/projects/sckim/.config/nvim/init.vim]
+1970-01-05 12:23:03.345484: goto_win(): wincmd p, 1
+1970-01-05 12:23:03.347347: goto_win(): 3wincmd w, 1
+1970-01-05 12:23:03.349516: goto_win(): 2wincmd w, 1
+1970-01-05 12:23:03.351991: goto_win(): 1wincmd w, 1
+1970-01-05 12:23:03.353599: AutoUpdate finished successfully
+1970-01-05 12:23:03.355397: AutoUpdate called [/projects/sckim/.config/nvim/init.vim]
+1970-01-05 12:23:03.358218: Vim filetype: 'vim', sanitized filetype: 'vim'
+1970-01-05 12:23:03.359787: Checking if file is valid [/projects/sckim/.config/nvim/init.vim]
+1970-01-05 12:23:03.361727: File data seems up to date [/projects/sckim/.config/nvim/init.vim]
+1970-01-05 12:23:03.367325: Setting current file [/projects/sckim/.config/nvim/init.vim]
+1970-01-05 12:23:03.369635: goto_win(): wincmd p, 1
+1970-01-05 12:23:03.372379: goto_win(): 3wincmd w, 1
+1970-01-05 12:23:03.374409: goto_win(): 2wincmd w, 1
+1970-01-05 12:23:03.376093: goto_win(): 1wincmd w, 1
+1970-01-05 12:23:03.378427: AutoUpdate finished successfully
+1970-01-05 12:23:22.876163: AutoUpdate called [/home/sckim/git_repos/imlib/imlib/]
+1970-01-05 12:23:22.899723: Vim filetype: 'python', sanitized filetype: 'python'
+1970-01-05 12:23:22.901887: Checking if file is valid [/home/sckim/git_repos/imlib/imlib/]
+1970-01-05 12:23:22.903631: File not readable
+1970-01-05 12:23:22.905620: Not a valid file, stopping processing
+1970-01-05 12:23:22.917850: AutoUpdate called [/home/sckim/git_repos/imlib/imlib/[Plugins]]
+1970-01-05 12:23:22.921023: Vim filetype: 'vim-plug', sanitized filetype: 'vim-plug'
+1970-01-05 12:23:22.925426: Checking if file is valid [/home/sckim/git_repos/imlib/imlib/[Plugins]]
+1970-01-05 12:23:22.944722: File not readable
+1970-01-05 12:23:22.948164: Not a valid file, stopping processing
+1970-01-05 12:23:43.460229: AutoUpdate called [/home/sckim/git_repos/imlib/imlib/]
+1970-01-05 12:23:43.462500: Vim filetype: 'python', sanitized filetype: 'python'
+1970-01-05 12:23:43.464476: Checking if file is valid [/home/sckim/git_repos/imlib/imlib/]
+1970-01-05 12:23:43.469096: File not readable
+1970-01-05 12:23:43.476565: Not a valid file, stopping processing
+1970-01-05 12:23:43.486994: AutoUpdate called [/home/sckim/git_repos/imlib/imlib/[Plugins]]
+1970-01-05 12:23:43.492715: Vim filetype: 'vim-plug', sanitized filetype: 'vim-plug'
+1970-01-05 12:23:43.495389: Checking if file is valid [/home/sckim/git_repos/imlib/imlib/[Plugins]]
+1970-01-05 12:23:43.499537: File not readable
+1970-01-05 12:23:43.502032: Not a valid file, stopping processing
+1970-01-05 12:23:48.246931: AutoUpdate called [/projects/sckim/.config/nvim/init.vim]
+1970-01-05 12:23:48.249096: Vim filetype: 'vim', sanitized filetype: 'vim'
+1970-01-05 12:23:48.251027: Checking if file is valid [/projects/sckim/.config/nvim/init.vim]
+1970-01-05 12:23:48.261407: File data outdated, updating [/projects/sckim/.config/nvim/init.vim]
+1970-01-05 12:23:48.263780: ProcessFile called [/projects/sckim/.config/nvim/init.vim]
+1970-01-05 12:23:48.265307: Checking if file is valid [/projects/sckim/.config/nvim/init.vim]
+1970-01-05 12:23:48.267512: typeinfo for file to process: {'ctagstype': 'vim', 'ftype': 'vim', 'kinddict': {'a': 3, 'c': 4, 'f': 2, 'v': 1, 'm': 5, 'n': 0, '?': 6}, 'createKinddict': function('<SNR>39_createKinddict'), 'getKind': function('<SNR>39_getKind'), 'kinds': [{'short': 'n', 'long': 'vimball filenames', 'fold': 0, 'stl': 1}, {'short': 'v', 'long': 'variables', 'fold': 1, 'stl': 0}, {'short': 'f', 'long': 'functions', 'fold': 0, 'stl': 1}, {'short': 'a', 'long': 'autocommand groups', 'fold': 1, 'stl': 1}, {'short': 'c', 'long': 'commands', 'fold': 0, 'stl': 0}, {'short': 'm', 'long': 'maps', 'fold': 1, 'stl': 0}]}
+1970-01-05 12:23:48.269148: Caching file into: /tmp/nvimm15cR5/5.vim
+1970-01-05 12:23:48.273711: ExecuteCtagsOnFile called [/tmp/nvimm15cR5/5.vim]
+1970-01-05 12:23:48.275665: EscapeCtagsCmd called
+1970-01-05 12:23:48.277176: ctags_bin: ctags
+1970-01-05 12:23:48.278927: ctags_args (is a list): ['-f', '-', '--format=2', '--excmd=pattern', '--fields=nksSaf', '--file-scope=yes', '--sort=no', '--append=no', '--extras=', '-V', '--language-force=vim', '--vim-kinds=nvfacm']
+1970-01-05 12:23:48.283484: Escaped ctags command: 'ctags' '-f' '-' '--format=2' '--excmd=pattern' '--fields=nksSaf' '--file-scope=yes' '--sort=no' '--append=no' '--extras=' '-V' '--language-force=vim' '--vim-kinds=nvfacm' '/tmp/nvimm15cR5/5.vim'
+1970-01-05 12:23:48.287244: Executing ctags command: 'ctags' '-f' '-' '--format=2' '--excmd=pattern' '--fields=nksSaf' '--file-scope=yes' '--sort=no' '--append=no' '--extras=' '-V' '--language-force=vim' '--vim-kinds=nvfacm' '/tmp/nvimm15cR5/5.vim'
+1970-01-05 12:23:48.496320: Executing command: "'/usr/local/bin/zsh' '-c' ''ctags' '-f' '-' '--format=2' '--excmd=pattern' '--fields=nksSaf' '--file-scope=yes' '--sort=no' '--append=no' '--extras=' '-V' '--language-force=vim' '--vim-kinds=nvfacm' '/tmp/nvimm15cR5/5.vim''"
+1970-01-05 12:23:48.516884: Exit code: 0
+1970-01-05 12:23:48.554921: Ctags executed successfully
+1970-01-05 12:23:48.568946: Filetype tag kinds: ['a', 'c', 'f', 'v', 'm', 'n', '?']
+1970-01-05 12:23:48.570728: Parsing ctags output
+1970-01-05 12:23:48.573303: Processing kind: n, number of tags: 0
+1970-01-05 12:23:48.575351: Processing kind: v, number of tags: 0
+1970-01-05 12:23:48.577766: Processing kind: f, number of tags: 0
+1970-01-05 12:23:48.580367: Processing kind: a, number of tags: 0
+1970-01-05 12:23:48.583160: Processing kind: c, number of tags: 0
+1970-01-05 12:23:48.587269: Processing kind: m, number of tags: 0
+1970-01-05 12:23:48.605075: RenderContent called
+1970-01-05 12:23:48.622406: goto_win(): wincmd p, 1
+1970-01-05 12:23:48.624598: goto_win(): 3wincmd w, 1
+1970-01-05 12:23:48.626390: Redisplaying file [/projects/sckim/.config/nvim/init.vim]
+1970-01-05 12:23:48.628671: No tags found, skipping printing.
+1970-01-05 12:23:48.630789: goto_win(): 1wincmd w, 1
+1970-01-05 12:23:48.632401: goto_win(): 1wincmd w, 1
+1970-01-05 12:23:48.633952: Setting current file [/projects/sckim/.config/nvim/init.vim]
+1970-01-05 12:23:48.638730: goto_win(): wincmd p, 1
+1970-01-05 12:23:48.640534: goto_win(): 3wincmd w, 1
+1970-01-05 12:23:48.642513: goto_win(): 3wincmd w, 1
+1970-01-05 12:23:48.644164: goto_win(): 1wincmd w, 1
+1970-01-05 12:23:48.645719: AutoUpdate finished successfully
+1970-01-05 12:23:49.479315: AutoUpdate called [/home/sckim/git_repos/imlib/imlib/base_filters.py]
+1970-01-05 12:23:49.488042: Vim filetype: 'python', sanitized filetype: 'python'
+1970-01-05 12:23:49.491338: Checking if file is valid [/home/sckim/git_repos/imlib/imlib/base_filters.py]
+1970-01-05 12:23:49.500530: File data seems up to date [/home/sckim/git_repos/imlib/imlib/base_filters.py]
+1970-01-05 12:23:49.552156: RenderContent called
+1970-01-05 12:23:49.565324: goto_win(): wincmd p, 1
+1970-01-05 12:23:49.576235: goto_win(): 2wincmd w, 1
+1970-01-05 12:23:49.579533: No tags found, skipping printing.
+1970-01-05 12:23:49.584480: goto_win(): 2wincmd w, 1
+1970-01-05 12:23:49.586368: goto_win(): 1wincmd w, 1
+1970-01-05 12:23:49.588279: Setting current file [/home/sckim/git_repos/imlib/imlib/base_filters.py]
+1970-01-05 12:23:49.590905: goto_win(): wincmd p, 1
+1970-01-05 12:23:49.592784: goto_win(): 2wincmd w, 1
+1970-01-05 12:23:49.594898: goto_win(): 2wincmd w, 1
+1970-01-05 12:23:49.596759: goto_win(): 1wincmd w, 1
+1970-01-05 12:23:49.598476: AutoUpdate finished successfully
+1970-01-05 12:23:50.205763: Closing Tagbar window due to QuitPre event
+1970-01-05 12:23:50.207599: goto_win(): 1wincmd w, 1
